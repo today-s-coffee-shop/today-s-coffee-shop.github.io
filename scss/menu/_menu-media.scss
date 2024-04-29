@@ -80,7 +80,6 @@
     #menu-body {
         #bg_image {
             .container {
-                margin-bottom: 45px;
                 padding-top: 20px;
                 width: 350px;
                 .title {
@@ -123,6 +122,59 @@
             .row {
                 &::after {
                     font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    #menu-body {
+        #bg_image {
+            .container {
+                padding-bottom: 45px;
+                width: 310px;
+                .title {
+                    &__text {
+                        font-size: 38px;
+                        line-height: 1.1
+                    }
+                }
+                .block {
+                    .title {
+                        font-size: 130px;
+                    }
+                }
+                .menu {
+                    margin-top: 20px;
+                    padding: 20px 0;
+                    &__list {
+                        margin-top: 30px;
+                        .menu-item {
+                            margin: 10px 0;
+                            &__image-block {
+                                height: 200px;
+                            }
+                            &__title {
+                                font-size: 28px;
+                            }
+                            &__price {
+                                font-size: 28px;
+                            }
+                            &__size {
+                                font-size: 18px;
+                            }
+                            &__about {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+            .row {
+                &::after {
+                    font-size: 16px;
                 }
             }
         }

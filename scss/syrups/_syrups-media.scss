@@ -46,3 +46,26 @@
         }
     }
 }
+
+@media screen and (max-width: 375px) {
+    #menu-body {
+        #bg_image {
+            .container {
+                .syrups {
+                    margin-top: 35px;
+                    &__title {
+                        font-size: 80px !important;
+                    }
+                    &__list {
+                        padding: 5px 0;
+                        .syrups-item {
+                            &__name {
+                                font-size: 26px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
