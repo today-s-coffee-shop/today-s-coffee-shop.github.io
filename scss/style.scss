@@ -9,7 +9,10 @@
     #bg_image {
         width: 100%;
         height: auto;
-        background-image: linear-gradient(to bottom, #808080, #013220);
+        position: fixed;
+        z-index: -1; 
+        }
+        // background-image: linear-gradient(to bottom, #808080, #013220);
         .container {
             position: relative;
             z-index: 2;
@@ -59,7 +62,6 @@
                 transition: transform 0.6s;
             }
         }
-    }
 }
 
 @import "menu/menu-media";
