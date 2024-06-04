@@ -1,31 +1,22 @@
 {
-  "name": "menu-",
+  "name": "today-s-coffee-shop.github.io",
   "version": "1.0.0",
+  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^5.0.0"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.4.19",
-    "gulp-postcss": "^10.0.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "node-sass": "^9.0.0",
-    "rename": "^1.0.4"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/input-api/input-api.github.io.git"
+    "url": "git+https://github.com/today-s-coffee-shop/today-s-coffee-shop.github.io.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/input-api/input-api.github.io/issues"
+    "url": "https://github.com/today-s-coffee-shop/today-s-coffee-shop.github.io/issues"
   },
-  "homepage": "https://github.com/input-api/input-api.github.io#readme",
-  "description": ""
+  "homepage": "https://github.com/today-s-coffee-shop/today-s-coffee-shop.github.io#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  }
 }
