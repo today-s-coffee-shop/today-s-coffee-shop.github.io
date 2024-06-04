@@ -1,19 +1,17 @@
 @media screen and (max-width: 1500px) {
     #menu-body {
-        #bg_image {
-            .container {
-                width: 1100px;
-                .menu {
-                    &__list {
-                        .menu-item {
-                            min-width: 100%;
-                            &__image-block {
-                                width: auto;
-                                height: 400px;
-                            }
-                            &__info {
-                                margin: 0;
-                            }
+        .container {
+            width: 1100px;
+            .menu {
+                &__list {
+                    .menu-item {
+                        min-width: 100%;
+                        &__image-block {
+                            width: auto;
+                            height: 400px;
+                        }
+                        &__info {
+                            margin: 0;
                         }
                     }
                 }
@@ -24,50 +22,44 @@
 
 @media screen and (max-width: 1200px) {
     #menu-body {
-        #bg_image {
-            .container {
-                width: 900px;
-            }
+        .container {
+            width: 900px;
         }
     }
 }
 
 @media screen and (max-width: 992px) {
     #menu-body {
-        #bg_image {
-            .container {
-                width: 668px;
-            }
+        .container {
+            width: 668px;
         }
     }
 }
 
 @media screen and (max-width: 768px) {
     #menu-body {
-        #bg_image {
-            .container {
-                width: 500px;
+        .container {
+            width: 500px;
+            .title {
+                &__text {
+                    font-size: 54px;
+                    line-height: 1;
+                }
+            }
+            .block {
                 .title {
-                    &__text {
-                        font-size: 54px;
-                        line-height: 1;
-                    }
+                    font-size: 150px;
                 }
-                .block {
-                    .title {
-                        font-size: 150px;
-                    }
+            }
+            .menu {
+                &__title {
+                    padding-left: 30px;
                 }
-                .menu {
-                    &__title {
-                        padding-left: 30px;
-                    }
-                    &__list {
-                        .menu-item {
-                            &__image-block {
-                                width: auto;
-                                height: 300px;
-                            }
+                &__list {
+                    .menu-item {
+                        &__image-block {
+                            width: auto;
+                            height: 300px;
                         }
                     }
                 }
@@ -78,51 +70,49 @@
 
 @media screen and (max-width: 576px) {
     #menu-body {
-        #bg_image {
-            .container {
-                padding-top: 20px;
-                width: 350px;
+        .container {
+            padding-top: 20px;
+            width: 350px;
+            .title {
+                &__text {
+                    font-size: 42px;
+                    line-height: 1.2
+                }
+            }
+            .block {
+                border: 2px solid $color_text;
                 .title {
-                    &__text {
-                        font-size: 42px;
-                        line-height: 1.2
-                    }
+                    font-size: 140px;
                 }
-                .block {
-                    border: 2px solid $color_text;
-                    .title {
-                        font-size: 140px;
-                    }
-                }
-                .menu {
-                    margin-top: 20px;
-                    padding: 20px 0;
-                    &__list {
-                        margin-top: 30px;
-                        .menu-item {
-                            &__image-block {
-                                height: 200px;
-                            }
-                            &__title {
-                                font-size: 32px;
-                            }
-                            &__price {
-                                font-size: 32px;
-                            }
-                            &__size {
-                                font-size: 20px;
-                            }
-                            &__about {
-                                font-size: 12px;
-                            }
+            }
+            .menu {
+                margin-top: 20px;
+                padding: 20px 0;
+                &__list {
+                    margin-top: 30px;
+                    .menu-item {
+                        &__image-block {
+                            height: 200px;
+                        }
+                        &__title {
+                            font-size: 32px;
+                        }
+                        &__price {
+                            font-size: 32px;
+                        }
+                        &__size {
+                            font-size: 20px;
+                        }
+                        &__about {
+                            font-size: 12px;
                         }
                     }
                 }
             }
-            .row {
-                &::after {
-                    font-size: 22px;
-                }
+        }
+        .row {
+            &::after {
+                font-size: 22px;
             }
         }
     }
@@ -131,51 +121,49 @@
 
 @media screen and (max-width: 375px) {
     #menu-body {
-        #bg_image {
-            .container {
-                padding-bottom: 45px;
-                width: 310px;
+        .container {
+            padding-bottom: 45px;
+            width: 310px;
+            .title {
+                &__text {
+                    font-size: 38px;
+                    line-height: 1.1
+                }
+            }
+            .block {
                 .title {
-                    &__text {
-                        font-size: 38px;
-                        line-height: 1.1
-                    }
+                    font-size: 130px;
                 }
-                .block {
-                    .title {
-                        font-size: 130px;
-                    }
-                }
-                .menu {
-                    margin-top: 20px;
-                    padding: 20px 0;
-                    &__list {
-                        margin-top: 30px;
-                        .menu-item {
-                            margin: 10px 0;
-                            &__image-block {
-                                height: 200px;
-                            }
-                            &__title {
-                                font-size: 28px;
-                            }
-                            &__price {
-                                font-size: 28px;
-                            }
-                            &__size {
-                                font-size: 18px;
-                            }
-                            &__about {
-                                font-size: 14px;
-                            }
+            }
+            .menu {
+                margin-top: 20px;
+                padding: 20px 0;
+                &__list {
+                    margin-top: 30px;
+                    .menu-item {
+                        margin: 10px 0;
+                        &__image-block {
+                            height: 200px;
+                        }
+                        &__title {
+                            font-size: 28px;
+                        }
+                        &__price {
+                            font-size: 28px;
+                        }
+                        &__size {
+                            font-size: 18px;
+                        }
+                        &__about {
+                            font-size: 14px;
                         }
                     }
                 }
             }
-            .row {
-                &::after {
-                    font-size: 16px;
-                }
+        }
+        .row {
+            &::after {
+                font-size: 16px;
             }
         }
     }
